@@ -1,0 +1,11 @@
+* Cria relatorios UiTest e UnitTest
+
+./gradlew clean createFullDemoDebugCoverageReport testFullDemoDebugUnitTest mergeAndroidReports --continue
+
+
+Resultado Xml UiTest
+caminho_do_projeto/app/build/outputs/androidTest-results/connected/flavors/FULLDEMO/TEST-Pixel_2_API_28(AVD) - 9-app-FULLDEMO.xml
+
+
+Resultado Xml UnitTest
+app/build/test-results/testFullDemoDebugUnitTest/TEST-com.example.estudojacoco.ExampleUnitTest.xml
