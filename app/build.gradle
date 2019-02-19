@@ -39,6 +39,7 @@ android {
 
             dimension "mode"
         }
+
         full {
             applicationIdSuffix ".full"
             versionNameSuffix "-full"
