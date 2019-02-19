@@ -9,3 +9,9 @@ caminho_do_projeto/app/build/outputs/androidTest-results/connected/flavors/FULLD
 
 Resultado Xml UnitTest
 app/build/test-results/testFullDemoDebugUnitTest/TEST-com.example.estudojacoco.ExampleUnitTest.xml
+
+
+gera Ui e UnitTest relatorios
+./gradlew clean  testFullDemoDebugUnitTest mergeAndroidReports --continue
+
+
